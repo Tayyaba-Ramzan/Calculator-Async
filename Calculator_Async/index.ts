@@ -2,39 +2,40 @@
 
 // 1) Calculator Using CallBack Hell
 
-let callbackHellCalculator = (num1: number, num2: number, operator: (num1: number, num2: number) => void, getNextCalculation) => {
+let callbackHellCalculator = (num1: number, num2: number, operator: (num1: number, num2: number) => void, getNextCalculation: () => void) => {
     getNextCalculation();
     return (operator(num1, num2));
 }
+
 let add = (num1: number, num2: number) => {
     console.log(num1 + num2);
 }
+
 let sub = (num1: number, num2: number) => {
     console.log(num1 - num2);
 }
+
 let mul = (num1: number, num2: number) => {
     console.log(num1 * num2);
 }
+
 let div = (num1: number, num2: number) => {
     console.log(num1 / num2);
-
-
 }
-let modules=(num1:number,num2:number)=>{
-    console.log(num1%num2);
-    
 
+let modules = (num1: number, num2: number) => {
+    console.log(num1 % num2);
 }
 
 callbackHellCalculator(10, 20, add, () => {
     callbackHellCalculator(15, 5, sub, () => {
         callbackHellCalculator(5, 5, mul, () => {
-            callbackHellCalculator(16, 8, div, () => {
-            })
-        })
+            callbackHellCalculator(16, 8, div, () => {     
+            });
+        });
+    });
+});
 
-    })
-})
 
 //                   XXXXXXXXXXXXXXXXXXXXX
 
