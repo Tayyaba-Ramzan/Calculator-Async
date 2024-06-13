@@ -1,2 +1,2 @@
 # Calculator-Async
-Initially, I created a calculator using callback hell, which made the code complicated and hard to read. Then, I improved readability with promise chaining. Finally, I made the code even more straightforward and readable using async/await.
+ 𝘍𝘪𝘳𝘴𝘵, 𝘤𝘢𝘭𝘭𝘣𝘢𝘤𝘬 𝘩𝘦𝘭𝘭 𝘧𝘰𝘳 𝘵𝘩𝘦 𝘤𝘢𝘭𝘤𝘶𝘭𝘢𝘵𝘰𝘳. 𝘛𝘩𝘦𝘯, 𝘱𝘳𝘰𝘮𝘪𝘴𝘦 𝘤𝘩𝘢𝘪𝘯𝘪𝘯𝘨 𝘧𝘰𝘳 𝘣𝘦𝘵𝘵𝘦𝘳 𝘳𝘦𝘢𝘥𝘢𝘣𝘪𝘭𝘪𝘵𝘺. 𝘍𝘪𝘯𝘢𝘭𝘭𝘺, 𝘴𝘸𝘪𝘵𝘤𝘩𝘦𝘥 𝘵𝘰 𝘢𝘴𝘺𝘯𝘤/𝘢𝘸𝘢𝘪𝘵 𝘧𝘰𝘳 𝘢 𝘮𝘰𝘳𝘦 𝘴𝘵𝘳𝘢𝘪𝘨𝘩𝘵𝘧𝘰𝘳𝘸𝘢𝘳𝘥 𝘢𝘯𝘥 𝘳𝘦𝘢𝘥𝘢𝘣𝘭𝘦 𝘤𝘰𝘥𝘦
