@@ -2,7 +2,7 @@
 
 // 1) Calculator Using CallBack Hell
 
-let callbackHellCalculator = (num1: number, num2: number, operator: (num1: number, num2: number) => void, getNextCalculation: any) => {
+let callbackHellCalculator = (num1: number, num2: number, operator: (num1: number, num2: number) => void, getNextCalculation) => {
     getNextCalculation();
     return (operator(num1, num2));
 }
